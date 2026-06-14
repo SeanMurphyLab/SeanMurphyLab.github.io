@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Wake Forest Institute for Regenerative Medicine, Winston-Salem, NC
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Richard H. Dean Biomedical Building</p>
+    <p>391 Technology Way, Winston-Salem, NC 27101</p>
+    <p><a href="tel:336-713-7293">336-713-7293</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+We are a research group at the Wake Forest Institute for Regenerative Medicine (WFIRM), led by Dr. Sean Murphy. Our work develops organ-on-a-chip and 3D bioprinting technologies to model human disease, engineer functional tissues, and accelerate the discovery of new therapies.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+A primary objective of our research is to build predictive, human-relevant model systems that accelerate the development of safe and effective therapies. Using organotypic tissue equivalent (OTE) platforms built from primary human cells, we generate physiologically relevant data for drug, toxin, and disease studies spanning chemical toxicology, environmental exposure, pulmonary fibrosis, and vaccine testing.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Our research is continuously supported by federal programs including the NIH, BARDA, CDMRP, and DHS, alongside foundation partners such as the American Lung Association and Cystic Fibrosis Foundation. Equally central to our mission is training the next generation of scientists in regenerative medicine — mentoring undergraduates, graduate students, clinical fellows, and postdoctoral researchers as they translate laboratory discovery toward patient care.
 
-Contact: sean.murphy [at] wfusm [dot] edu
+Contact: sean.murphy [at] wfusm [dot] edu · [LinkedIn](https://www.linkedin.com/in/sean-murphy-3741bb49/)
