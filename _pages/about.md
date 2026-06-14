@@ -6,7 +6,7 @@ subtitle: Wake Forest Institute for Regenerative Medicine, Winston-Salem, NC
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: murphy_lab_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Richard H. Dean Biomedical Building</p>
