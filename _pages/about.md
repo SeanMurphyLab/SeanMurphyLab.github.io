@@ -4,15 +4,6 @@ title: about
 permalink: /
 subtitle: Wake Forest Institute for Regenerative Medicine, Winston-Salem, NC
 
-profile:
-  align: right
-  # image: murphy_lab_photo.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Richard H. Dean Biomedical Building</p>
-    <p>391 Technology Way, Winston-Salem, NC 27101</p>
-    <p><a href="tel:336-713-7293">336-713-7293</a></p>
-
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -36,3 +27,7 @@ A primary objective of our research is to build predictive, human-relevant model
 Our research is continuously supported by federal programs including the NIH, BARDA, CDMRP, and DHS, alongside foundation partners such as the American Lung Association and Cystic Fibrosis Foundation. Equally central to our mission is training the next generation of scientists in regenerative medicine — mentoring undergraduates, graduate students, clinical fellows, and postdoctoral researchers as they translate laboratory discovery toward patient care.
 
 Contact: sean.murphy [at] wfusm [dot] edu · [LinkedIn](https://www.linkedin.com/in/sean-murphy-3741bb49/)
+
+<p>Richard H. Dean Biomedical Building<br>
+391 Technology Way, Winston-Salem, NC 27101<br>
+336-713-7293</p>
