@@ -6,7 +6,7 @@ subtitle: Wake Forest Institute for Regenerative Medicine, Winston-Salem, NC
 
 profile:
   align: right
-  image: murphy_lab_photo.jpg
+  # image: murphy_lab_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Richard H. Dean Biomedical Building</p>
@@ -26,6 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<img src="{{ '/assets/img/murphy_lab_hero.jpg' | relative_url }}" alt="Murphy Lab" style="width:100%; border-radius:8px; margin-bottom:1.5rem;">
 
 We are a research group at the Wake Forest Institute for Regenerative Medicine (WFIRM), led by Dr. Sean Murphy. Our work develops organ-on-a-chip and 3D bioprinting technologies to model human disease, engineer functional tissues, and accelerate the discovery of new therapies.
 
