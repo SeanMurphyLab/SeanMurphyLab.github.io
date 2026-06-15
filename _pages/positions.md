@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /positions/
-title: positions
+title: Positions
 nav: true
 nav_order: 5
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /media/
-title: media
+title: Media
 nav: true
 nav_order: 4
 ---

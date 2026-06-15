@@ -1,17 +1,17 @@
 ---
 layout: page
-title: submenus
+title: More
 nav: true
 nav_order: 6
 dropdown: true
 children:
-  - title: bookshelf
+  - title: Bookshelf
     permalink: /books/
   - title: divider
-  - title: news
+  - title: News
     permalink: /news/
-  - title: photos
+  - title: Photos
     permalink: /photos/
-  - title: internal
+  - title: Internal
     permalink: /internal/
 ---
