@@ -1,13 +1,28 @@
 ---
-layout: book-shelf
+layout: page
 title: Bookshelf
 permalink: /books/
 nav: false
-collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+Books authored and edited by the Murphy Lab.
 
-## Books that I am reading, have read, or will read
+<div class="books mt-4">
+{% for book in site.data.books %}
+  <div class="row align-items-center mb-5">
+    <div class="col-sm-3 mb-3 mb-sm-0 text-center">
+      <a href="{{ book.url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover"
+             style="max-height: 220px; width: auto; max-width: 100%;">
+      </a>
+    </div>
+    <div class="col-sm-9">
+      <h3 class="mt-0">
+        <a href="{{ book.url }}" target="_blank" rel="noopener noreferrer">{{ book.title }}</a>
+      </h3>
+      <p class="text-muted mb-2">{{ book.publisher }} · {{ book.year }}</p>
+      <p class="mb-0">{{ book.blurb }}</p>
+    </div>
+  </div>
+{% endfor %}
+</div>

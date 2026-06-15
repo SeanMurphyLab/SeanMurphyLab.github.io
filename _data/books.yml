@@ -1,0 +1,40 @@
+# Murphy Lab bookshelf cards. Each entry renders as one left/right row:
+#   cover image (left, clickable -> purchase URL) + title / publisher / blurb (right).
+# To add a book: copy a block, edit fields, save the cover into assets/img/
+#   (lowercase, no spaces), git add it, then commit & push.
+
+- title: "Regenerative Medicine Technology: On-a-Chip Applications for Disease Modeling, Drug Discovery and Personalized Medicine"
+  publisher: "CRC Press"
+  year: 2016
+  cover: "/assets/img/regen_med_tech.jpg"
+  url: "https://www.taylorfrancis.com/books/mono/10.1201/9781315371344/regenerative-medicine-technology-sean-murphy-anthony-atala"
+  blurb: >
+    A comprehensive guide to organ-on-a-chip technologies, spanning
+    microfabrication, 3D bioprinting, biosensors, and microfluidics. Chapters
+    cover lung, liver, heart, skin, and kidney systems through to whole
+    "body-on-a-chip" platforms for disease modeling, drug discovery, and
+    personalized medicine.
+
+- title: "Perinatal Stem Cells: Research and Therapy"
+  publisher: "Academic Press"
+  year: 2018
+  cover: "/assets/img/perinatal_research_therapy.jpg"
+  url: "https://www.amazon.com/dp/0128120150"
+  blurb: >
+    A complete account of stem cells from perinatal sources: amniotic fluid,
+    placenta and placental membranes, umbilical cord, and Wharton's jelly.
+    Covers their biology and therapeutic potential, with a dedicated section on
+    clinical translation and commercialization.
+
+- title: "Perinatal Stem Cells"
+  publisher: "Springer"
+  year: 2014
+  cover: "/assets/img/perinatal_stem_cells.jpg"
+  url: "https://link.springer.com/book/10.1007/978-1-4939-1118-9"
+  blurb: >
+    Thirty-two chapters from international leaders examining the sources,
+    biology, and disease applications of perinatal stem cells, organized into
+    amniotic-fluid, placental, umbilical-cord, and clinical-translation
+    sections. It addresses uses across renal, cardiac, inflammatory, pulmonary,
+    bone, and spinal-cord-injury treatment, plus manufacturing and banking
+    progress.
