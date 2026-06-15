@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /internal/
-title: internal
+title: Internal
 nav: false
 ---
 

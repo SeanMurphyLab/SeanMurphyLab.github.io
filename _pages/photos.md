@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /photos/
-title: photos
+title: Photos
 nav: false
 ---
 
