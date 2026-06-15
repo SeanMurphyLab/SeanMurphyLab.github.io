@@ -1,4 +1,29 @@
-- title: Murphy Lab at WFIRM
-  subtitle: Wake Forest Institute for Regenerative Medicine
-  thumbnail: murphy_lab_hero.jpg
-  url: https://www.wakehealth.edu/research/institutes-and-centers/wfirm
+# Murphy Lab media cards. Each entry renders as a 2-wide clickable card.
+# YouTube thumbnails are pulled automatically from the video ID (no manual thumbnail needed).
+# To add a video: copy a block below, change the fields, commit & push.
+# NOTE: titles/subtitles below marked (provisional) — please confirm or edit.
+
+- title: "Wake Forest Institute for Regenerative Medicine"   # (provisional)
+  subtitle: "WFIRM feature"
+  url: "https://www.youtube.com/watch?v=HznzoH6tU1c"
+  thumbnail: "https://img.youtube.com/vi/HznzoH6tU1c/hqdefault.jpg"
+
+- title: "Vikram Surendran — Murphy Lab"                     # (provisional)
+  subtitle: "Research feature"
+  url: "https://www.youtube.com/watch?v=PpOnfQJp_Hc"
+  thumbnail: "https://img.youtube.com/vi/PpOnfQJp_Hc/hqdefault.jpg"
+
+- title: "Riccardo Levato and Sean Murphy — TERMIS-AST-ISCT Webinar"
+  subtitle: "Webinar"
+  url: "https://www.youtube.com/watch?v=w6-OTy5LfUQ"
+  thumbnail: "https://img.youtube.com/vi/w6-OTy5LfUQ/hqdefault.jpg"
+
+- title: "The Future of Medicine"                            # (provisional)
+  subtitle: "CNN Vital Signs · 2022"
+  url: "https://www.cnn.com/videos/tv/2022/03/07/vital-signs-future-of-medicine-spc-intl.cnn"
+  thumbnail: "/assets/img/cnn_logo.jpg"                       # official CNN logo
+
+- title: "Sean Murphy interview with West Australian"        # (from filename — edit if you like)
+  subtitle: "Sean Murphy"
+  url: "/assets/video/Sean_Murphy_interview_with_West_Australian.mp4"
+  thumbnail: "/assets/img/west_australian_logo.jpg"          # official The West Australian logo
