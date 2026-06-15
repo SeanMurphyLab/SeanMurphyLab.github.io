@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Wake Forest Institute for Regenerative Medicine, Winston-Salem, NC
 
