@@ -9,3 +9,9 @@
   image: "sean_murphy_profile.jpeg"
   linkedin: "https://www.linkedin.com/in/sean-murphy-3741bb49/"
   bio: "Coming soon"
+
+- name: "Placeholder Person"
+  position: "Lab Member"
+  image: "prof_pic.jpg"
+  linkedin: "https://www.linkedin.com/"
+  bio: "Coming soon"

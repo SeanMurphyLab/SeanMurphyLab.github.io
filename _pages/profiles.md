@@ -2,12 +2,12 @@
 layout: page
 permalink: /people/
 title: People
-description: Members of the lab
 nav: true
 nav_order: 1
 ---
 
 <div class="people">
+<hr>
 {% for person in site.data.people %}
   <div class="row align-items-center my-5">
     {% assign is_even = forloop.index | modulo: 2 %}
@@ -33,5 +33,6 @@ nav_order: 1
     </div>
     {% endif %}
   </div>
+  {% unless forloop.last %}<hr>{% endunless %}
 {% endfor %}
 </div>
