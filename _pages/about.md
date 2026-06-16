@@ -18,7 +18,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<img src="{{ '/assets/img/murphy_lab_hero.jpg' | relative_url }}" alt="Murphy Lab" style="width:100%; border-radius:8px; margin-bottom:1.5rem;">
+<img src="{{ '/assets/img/murphy_lab_halloween_cropped.jpeg' | relative_url }}" alt="Murphy Lab" style="width:100%; border-radius:8px; margin-bottom:1.5rem;">
 
 We are a research group at the Wake Forest Institute for Regenerative Medicine (WFIRM), led by Dr. Sean Murphy. Our work develops organ-on-a-chip and 3D bioprinting technologies to model human disease, engineer functional tissues, and accelerate the discovery of new therapies.
 
