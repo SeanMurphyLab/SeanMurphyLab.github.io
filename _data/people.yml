@@ -1,0 +1,11 @@
+# Murphy Lab people. Each entry renders as one row; photo side alternates
+# (odd entries: photo right / text left — like demo card 1; even: photo left / text right).
+# To add a member: copy a block, edit the fields, save their photo into assets/img/
+# (lowercase, no spaces), git add the photo, then commit & push.
+# Short or empty bios are fine — write "Coming soon" or leave bio blank.
+
+- name: "Sean Murphy"
+  position: "Principal Investigator"
+  image: "sean_murphy_profile.jpeg"
+  linkedin: "https://www.linkedin.com/in/sean-murphy-3741bb49/"
+  bio: "Coming soon"

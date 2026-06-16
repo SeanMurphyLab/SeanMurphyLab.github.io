@@ -1,28 +1,37 @@
 ---
-layout: profiles
+layout: page
 permalink: /people/
 title: People
-description: members of the lab or group
+description: Members of the lab
 nav: true
 nav_order: 1
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
 ---
+
+<div class="people">
+{% for person in site.data.people %}
+  <div class="row align-items-center my-5">
+    {% assign is_even = forloop.index | modulo: 2 %}
+    {% if is_even == 0 %}
+    <div class="col-sm-4 text-center">
+      <img src="{{ person.image | prepend: '/assets/img/' | relative_url }}" alt="{{ person.name }}" class="img-fluid rounded z-depth-1" style="max-height: 300px; width: auto;">
+    </div>
+    <div class="col-sm-8">
+      <h3 class="mb-1">{{ person.name }}</h3>
+      {% if person.position %}<p class="text-muted mb-2"><strong>{{ person.position }}</strong></p>{% endif %}
+      {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+      {% if person.linkedin %}<a href="{{ person.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>{% endif %}
+    </div>
+    {% else %}
+    <div class="col-sm-8">
+      <h3 class="mb-1">{{ person.name }}</h3>
+      {% if person.position %}<p class="text-muted mb-2"><strong>{{ person.position }}</strong></p>{% endif %}
+      {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+      {% if person.linkedin %}<a href="{{ person.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>{% endif %}
+    </div>
+    <div class="col-sm-4 text-center">
+      <img src="{{ person.image | prepend: '/assets/img/' | relative_url }}" alt="{{ person.name }}" class="img-fluid rounded z-depth-1" style="max-height: 300px; width: auto;">
+    </div>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
