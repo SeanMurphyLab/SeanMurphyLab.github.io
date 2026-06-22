@@ -8,7 +8,26 @@ category: work
 related_publications: false
 ---
 
+<style>
+.fibrosis-video {
+  float: right;
+  width: 45%;
+  margin: 0.25rem 0 1rem 1.5rem;
+}
+@media (max-width: 768px) {
+  .fibrosis-video { float: none; width: 100%; margin: 1rem 0; }
+}
+</style>
+
 Exposure to toxic chemicals such as sulfur mustard can cause progressive scarring, or fibrosis, in the lungs and skin. Sulfur mustard, used as a chemical warfare agent in World War I and in more recent conflicts, produces blistering skin injury, eye damage, and lasting respiratory harm, yet few effective treatments exist. Studying these injuries and developing countermeasures is difficult, in part because animal models and conventional cell cultures predict human responses poorly.
+
+<div class="fibrosis-video">
+    <video class="img-fluid rounded z-depth-1" controls style="width: 100%;">
+        <source src="/assets/video/BARDA_Event.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="caption">BARDA award announcement event at WFIRM.</div>
+</div>
 
 This project, supported by an eight-year BARDA contract valued at up to $48 million, develops human organ tissue equivalent (OTE) models: miniature three-dimensional airway and skin tissues that reproduce how these organs respond to fibrosis-inducing chemical exposure. It builds on WFIRM's earlier body-on-a-chip work modeling chlorine gas lung injury, extending the approach to the fibrotic effects of chemical agents on both skin and airways.
 
@@ -18,14 +37,6 @@ The platform supports high-throughput screening of candidate anti-fibrotic thera
 
 By accurately replicating human responses to toxic chemical exposure in the laboratory, this work offers a faster, more human-relevant route to understanding chemical-induced fibrosis and to developing the medical countermeasures needed to protect public health and national security.
 
-<div class="row justify-content-center mt-4">
-    <div class="col-md-3">
-        <video class="img-fluid rounded z-depth-1" controls>
-            <source src="/assets/video/BARDA_Event.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</div>
-<div class="caption">BARDA award announcement event at WFIRM.</div>
+<div style="clear: both;"></div>
 
 For more information, see the [Wake Forest announcement](https://newsroom.wakehealth.edu/news-releases/2024/10/wfirm-awarded-millions-to-utilize-body-on-a-chip-technologies) and the [NSF RegenMed Engine feature](https://regenmedengine.com/news/wfirm-awarded-barda-grant-up-to-48-million/).
