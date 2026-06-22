@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Human OTE Models of Fibrosing Chemical Exposure
+title: In vitro Fibrosis Models
 description: Airway and skin tissue chips that model chemical-induced fibrosis to accelerate medical countermeasure development.
 img: assets/img/BARDA_lung.jpg
 importance: 2
 category: work
 related_publications: false
 ---
-
-{% include figure.liquid loading="eager" path="assets/img/BARDA_lung.jpg" title="Human airway and skin organ tissue equivalent models of chemical-induced fibrosis" class="img-fluid rounded z-depth-1" %}
 
 Exposure to toxic chemicals such as sulfur mustard can cause progressive scarring, or fibrosis, in the lungs and skin. Sulfur mustard, used as a chemical warfare agent in World War I and in more recent conflicts, produces blistering skin injury, eye damage, and lasting respiratory harm, yet few effective treatments exist. Studying these injuries and developing countermeasures is difficult, in part because animal models and conventional cell cultures predict human responses poorly.
 
@@ -21,7 +19,7 @@ The platform supports high-throughput screening of candidate anti-fibrotic thera
 By accurately replicating human responses to toxic chemical exposure in the laboratory, this work offers a faster, more human-relevant route to understanding chemical-induced fibrosis and to developing the medical countermeasures needed to protect public health and national security.
 
 <div class="row justify-content-center mt-4">
-    <div class="col-md-9">
+    <div class="col-md-3">
         <video class="img-fluid rounded z-depth-1" controls>
             <source src="/assets/video/BARDA_Event.mp4" type="video/mp4">
             Your browser does not support the video tag.
