@@ -2,7 +2,7 @@
 layout: page
 title: ImmuneChip+
 description: A multi-tissue chip that reconstructs the human immune response to vaccination.
-img: assets/img/immunechip_schematic.jpg
+img: assets/img/barda_drive.jpg
 importance: 1
 category: work
 related_publications: false

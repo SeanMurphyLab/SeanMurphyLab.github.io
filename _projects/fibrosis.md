@@ -1,8 +1,8 @@
 ---
 layout: page
-title: In vitro Fibrosis Models
+title: Fibrosis-on-a-chip
 description: Airway and skin tissue chips that model chemical-induced fibrosis to accelerate medical countermeasure development.
-img: assets/img/BARDA_lung.jpg
+img: assets/img/barda_logo.jpg
 importance: 2
 category: work
 related_publications: false
