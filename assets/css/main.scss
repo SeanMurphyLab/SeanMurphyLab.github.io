@@ -142,3 +142,34 @@ html[data-theme="dark"] .post article h2:has(+ .publications) + .publications {
     width: 100%;
   }
 }
+
+/* -----------------------------------------------------------------------
+   Selected Publications (about page only) — flush-left alignment fix.
+
+   Root cause: enable_publication_thumbnails: true causes bib.liquid to
+   render each li as a Bootstrap .row with two children:
+     div.col.col-sm-2.abbr  (left thumbnail/badge column — empty for our papers)
+     div#key.col-sm-8        (the actual entry content)
+   The empty col-sm-2 steals 16.67% width and Bootstrap flex indents the
+   content. Fix: collapse .row to block display (scoped to this band only),
+   hide the empty .abbr column, and zero the col padding. The main
+   /publications page is unaffected because this selector is scoped to the
+   h2:has(+ .publications) + .publications chain on the about page.
+   ----------------------------------------------------------------------- */
+
+.post article h2:has(+ .publications) + .publications ol.bibliography li .row {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.post article h2:has(+ .publications) + .publications ol.bibliography li .abbr {
+  display: none;
+}
+
+.post article h2:has(+ .publications) + .publications ol.bibliography li .col-sm-8,
+.post article h2:has(+ .publications) + .publications ol.bibliography li .col-sm-10 {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
