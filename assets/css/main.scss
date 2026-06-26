@@ -190,3 +190,8 @@ html[data-theme="dark"] .post article h2:has(+ .publications) + .publications {
 #navbar .navbar-collapse { flex-grow: 1; }
 #navbar .navbar-nav { margin-left: auto; }
 #navbar .lab-brand .brand-logo { height: 34px; }
+
+/* Header 4.9d fix 2: tighten right-side spacing so search + toggle fit */
+#navbar .navbar-nav .nav-item { margin-left: 0.35rem; margin-right: 0.35rem; }
+#navbar #search-toggle .nav-link { padding-left: 0.4rem; padding-right: 0.4rem; }
+#navbar .toggle-container { margin-left: 0.25rem; }
