@@ -184,3 +184,9 @@ html[data-theme="dark"] .post article h2:has(+ .publications) + .publications {
   #navbar .lab-brand .brand-text { font-size: 1.25rem; }
   #navbar .lab-brand .brand-logo { height: 30px; }
 }
+
+/* Header 4.9d fix: keep brand + nav on one row */
+#navbar .container { flex-wrap: nowrap; }
+#navbar .navbar-collapse { flex-grow: 1; }
+#navbar .navbar-nav { margin-left: auto; }
+#navbar .lab-brand .brand-logo { height: 34px; }
