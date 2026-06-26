@@ -82,3 +82,63 @@ html[data-theme="dark"] .post article h2:has(+ .publications),
 html[data-theme="dark"] .post article h2:has(+ .publications) + .publications {
   background-color: #1a1a1a;
 }
+
+/* -----------------------------------------------------------------------
+   Lab footer band — map + address/contact block
+   ----------------------------------------------------------------------- */
+
+.lab-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 2rem;
+  margin-top: 3.5rem;
+  border-radius: 6px;
+}
+
+.lab-footer-map iframe {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  display: block;
+  border-radius: 4px;
+}
+
+.lab-footer-map {
+  flex: 0 0 400px;
+}
+
+.lab-footer-info {
+  flex: 1 1 auto;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.lab-footer-info p {
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.lab-footer-info a {
+  color: var(--global-theme-color);
+}
+
+.lab-footer-info a:hover {
+  color: var(--global-hover-color);
+}
+
+@media (max-width: 768px) {
+  .lab-footer {
+    flex-direction: column;
+  }
+
+  .lab-footer-map,
+  .lab-footer-map iframe {
+    max-width: 100%;
+    width: 100%;
+  }
+}
