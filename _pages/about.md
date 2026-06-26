@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: Wake Forest Institute for Regenerative Medicine, Winston-Salem, NC
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # disabled — rendered manually in body to control position
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,8 +26,19 @@ A primary objective of our research is to build predictive, human-relevant model
 
 Our research is continuously supported by federal programs including the NIH, BARDA, CDMRP, and DHS, alongside foundation partners such as the American Lung Association and Cystic Fibrosis Foundation. Equally central to our mission is training the next generation of scientists in regenerative medicine — mentoring undergraduates, graduate students, clinical fellows, and postdoctoral researchers as they translate laboratory discovery toward patient care.
 
-Contact: sean.murphy [at] wfusm [dot] edu · [LinkedIn](https://www.linkedin.com/in/sean-murphy-3741bb49/)
+<h2>selected publications</h2>
+{% include selected_papers.liquid %}
 
-<p>Richard H. Dean Biomedical Building<br>
-391 Technology Way, Winston-Salem, NC 27101<br>
-336-713-7293</p>
+<div class="lab-footer">
+  <div class="lab-footer-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1698.001161574281!2d-80.24105646443984!3d36.094275996771536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853ae5bad1c264b%3A0x698389952d5975bf!2sWake%20Forest%20Institute%20for%20Regenerative%20Medicine!5e0!3m2!1sen!2sus!4v1782438607211!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <div class="lab-footer-info">
+    <p>Contact: sean.murphy [at] wfusm [dot] edu · <a href="https://www.linkedin.com/in/sean-murphy-3741bb49/">LinkedIn</a></p>
+    <p>Wake Forest Institute for Regenerative Medicine<br>
+    Richard H. Dean Biomedical Building<br>
+    391 Technology Way,<br>
+    Winston-Salem, NC 27101<br>
+    336-713-7293</p>
+  </div>
+</div>
