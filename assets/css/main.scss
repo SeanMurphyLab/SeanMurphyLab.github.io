@@ -173,3 +173,14 @@ html[data-theme="dark"] .post article h2:has(+ .publications) + .publications {
   padding-right: 0;
   width: 100%;
 }
+
+/* Header redesign (4.9d): wordmark + institution logos, roomier nav */
+#navbar .lab-brand { display: flex; align-items: center; gap: 0.5rem; }
+#navbar .lab-brand .brand-text { font-size: 1.6rem; font-weight: 700; white-space: nowrap; margin-right: 0.6rem; }
+#navbar .lab-brand .brand-logo { height: 38px; width: auto; }
+#navbar .nav-link { font-size: 1.05rem; letter-spacing: 0.02em; }
+#navbar .navbar-nav .nav-item { margin-left: 0.5rem; margin-right: 0.5rem; }
+@media (max-width: 768px) {
+  #navbar .lab-brand .brand-text { font-size: 1.25rem; }
+  #navbar .lab-brand .brand-logo { height: 30px; }
+}
