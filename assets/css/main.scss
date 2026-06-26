@@ -40,3 +40,45 @@ html[data-theme="dark"] {
   --global-theme-color: #1FB6C1;
   --global-hover-color: #4FD0DA;
 }
+
+/* -----------------------------------------------------------------------
+   Homepage (about page) layout overrides.
+   Selectors verified against al_folio_core v1.0.11 about.liquid:
+     .post-header h1.post-title / p.desc  — title and subtitle
+     .post article h2:has(+ .publications) — "selected publications" heading
+       (bare h2 rendered by about.liquid, immediately before the div)
+     .publications — wrapper rendered by selected_papers.liquid
+     .publications ol.bibliography — jekyll-scholar entry list
+   ----------------------------------------------------------------------- */
+
+/* 1. Center hero title and subtitle */
+.post-header .post-title,
+.post-header p.desc {
+  text-align: center;
+}
+
+/* 2 & 3. Selected publications: capitalize heading + theme-aware background band */
+.post article h2:has(+ .publications) {
+  text-transform: capitalize;
+  background-color: #f5f5f5;
+  padding: 1.25rem 1rem 0.5rem;
+  margin-bottom: 0;
+}
+
+.post article h2:has(+ .publications) + .publications {
+  background-color: #f5f5f5;
+  padding: 0 1rem 1.5rem;
+  margin-top: 0;
+}
+
+/* Align heading and entries to the same left edge
+   (removes default ol indentation so entries start at the same 1rem offset as the heading) */
+.publications ol.bibliography {
+  padding-left: 0;
+}
+
+/* Dark mode band */
+html[data-theme="dark"] .post article h2:has(+ .publications),
+html[data-theme="dark"] .post article h2:has(+ .publications) + .publications {
+  background-color: #1a1a1a;
+}
