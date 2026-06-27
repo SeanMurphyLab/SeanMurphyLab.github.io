@@ -20,11 +20,13 @@ latest_posts:
 
 <img src="{{ '/assets/img/murphy_lab_halloween_cropped.jpeg' | relative_url }}" alt="Murphy Lab" style="width:100%; border-radius:8px; margin-bottom:1.5rem;">
 
-We are a research group at the Wake Forest Institute for Regenerative Medicine (WFIRM), led by Dr. Sean Murphy. Our work develops organ-on-a-chip and 3D bioprinting technologies to model human disease, engineer functional tissues, and accelerate the discovery of new therapies.
+We are a research group at the Wake Forest Institute for Regenerative Medicine (WFIRM). Our work develops organ-on-a-chip and 3D bioprinting technologies to model human disease, engineer functional tissues, and accelerate the discovery of new therapies.
 
-A primary objective of our research is to build predictive, human-relevant model systems that accelerate the development of safe and effective therapies. Using organotypic tissue equivalent (OTE) platforms built from primary human cells, we generate physiologically relevant data for drug, toxin, and disease studies spanning chemical toxicology, environmental exposure, pulmonary fibrosis, and vaccine testing.
+A primary objective of our research is to build predictive, human-relevant model systems that accelerate the development of safe and effective therapies. Using organotypic tissue equivalent (OTE) platforms built from primary human cells, we generate physiologically relevant data for drug, toxin, and disease studies spanning chemical toxicology, environmental exposure, pulmonary fibrosis, and vaccine testing. These platforms offer an ethical, human-relevant alternative to animal models, consistent with the aims of the FDA Modernization Act.
 
-Our research is continuously supported by federal programs including the NIH, BARDA, CDMRP, and DHS, alongside foundation partners such as the American Lung Association and Cystic Fibrosis Foundation. Equally central to our mission is training the next generation of scientists in regenerative medicine — mentoring undergraduates, graduate students, clinical fellows, and postdoctoral researchers as they translate laboratory discovery toward patient care.
+Our research is continuously supported by federal programs including the NIH, BARDA, CDMRP, and DHS, alongside foundation partners such as the American Lung Association and Cystic Fibrosis Foundation.
+
+Training the next generation of scientists is central to how the lab operates. We mentor undergraduate students, graduate students, residents, and clinical and postdoctoral fellows, and we contribute to graduate and summer education through competitive programs including the Molecular Medicine and Translational Science (MMTS) and Virginia Tech-Wake Forest School of Biomedical Engineering and Sciences (SBES) programs, the WFIRM Summer Scholars and High School Summer Research programs, and the Regenerative Medicine Essentials course.
 
 <h2>selected publications</h2>
 {% include selected_papers.liquid %}
