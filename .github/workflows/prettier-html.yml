@@ -5,6 +5,10 @@ on:
 
 jobs:
   format:
+    # Disabled: this workflow is kept for reference only and will not run
+    # (neither via manual dispatch nor any other trigger). Remove this
+    # line to re-enable.
+    if: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout gh-pages branch

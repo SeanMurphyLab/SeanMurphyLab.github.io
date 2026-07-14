@@ -12,6 +12,10 @@ on:
 
 jobs:
   check:
+    # Disabled: this workflow is kept for reference only and will not run
+    # (neither on push/pull_request nor any other trigger). Remove this
+    # line to re-enable.
+    if: false
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
