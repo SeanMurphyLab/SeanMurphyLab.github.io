@@ -22,29 +22,34 @@ but they are fragile, awkward to apply, and a poor fit for wounds that are deep 
 irregular in shape. Our work reformulates amnion into materials that keep its
 biological activity while being far easier to use in practice.
 
-We developed a solubilized amnion membrane hyaluronic acid hydrogel and an amnion
-membrane powder, and tested both in full thickness wound models {% cite murphy2017solubilized %}
-{% cite murphy2020amnion %}. Both accelerated wound closure and supported the formation
-of mature epidermis and dermis, with tissue architecture closer to healthy skin than
-untreated wounds. Related work in the lab established how the hydrogel chemistry can be
-tuned to capture and slowly release growth factors, so the therapeutic effect continues
-after the delivered material has done its initial work {% cite skardal2017tunable %}.
+We developed two formulations in parallel: a solubilized amnion membrane hyaluronic
+acid hydrogel and an amnion membrane powder, and evaluated both in full thickness
+wound models {% cite murphy2017solubilized %}
+{% cite murphy2020amnion %}. The hydrogel is central to the approach. Processing
+amnion into a solubilized form releases its growth factors, cytokines and matrix
+proteins, and the hyaluronic acid network acts as a carrier that holds those
+components at the wound surface and delivers them gradually as the gel breaks down.
+That chemistry is tunable, so the rate of capture and release can be matched to the
+healing timeline rather than delivering everything at once {% cite skardal2017tunable %}.
+Both formulations accelerated wound closure and supported the formation of mature
+epidermis and dermis, with tissue architecture closer to healthy skin than untreated
+wounds.
 
 We are extending this platform to burn injury through a project funded by the Armed
-Forces Institute of Regenerative Medicine, led by Dr. Shay Soker with Dr. Sean Murphy
-as co-investigator. Partial thickness burns can deepen in the hours and days after
-injury, a process called burn conversion, and in remote settings definitive care may
-only be available after evacuation. The project tests whether a human amnion membrane
-product applied immediately, or after a realistic delay, can prevent that deterioration
-and promote healthy skin regeneration, with a preclinical model followed by an early
-phase study in patients.
+Forces Institute of Regenerative Medicine. Partial thickness burns can deepen in the
+hours and days after injury, a process called burn conversion. In far forward and
+austere environments, where evacuation may be delayed and definitive burn care is not
+available, that window is exactly when treatment options are most limited. The project
+tests whether the amnion membrane hydrogel, applied immediately or after a realistic
+delay, can prevent that deterioration and promote healthy skin regeneration, with a
+preclinical model followed by an early phase study in patients.
 
 The technology has also been licensed for commercial development. BioHeal Therapeutics
-is advancing Protevion Hydrogel, a flowable amnion hydrogel dressing designed to conform
-to wounds of any size or shape while maintaining a moist, protective wound environment.
-It is an investigational product that has not yet received FDA clearance. Together these
-strands carry one biomaterial from laboratory discovery through preclinical testing and
-toward routine clinical use.
+is advancing Protevion Hydrogel, a flowable amnion hydrogel dressing that conforms to
+wounds of any size or shape while maintaining a moist, protective wound environment.
+The product is investigational and has not yet received FDA clearance. Work in the lab
+continues in parallel, deepening the underlying science, expanding the range of injuries
+these materials can address, and translating them toward the patients who need them.
 
 ## For more information
 
