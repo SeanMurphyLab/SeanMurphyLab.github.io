@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accelerating deployment and regulatory approval of in vitro models
+title: Accelerating Regulatory Approval of In Vitro Models
 description: Building and validating human in vitro models to speed their adoption and regulatory acceptance
 img: assets/img/complement_thumb.jpeg
 importance: 7

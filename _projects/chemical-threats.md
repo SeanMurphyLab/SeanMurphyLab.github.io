@@ -2,7 +2,7 @@
 layout: page
 title: Airway-on-a-Chip for Chemical Threat Countermeasures
 description: Modeling chemical threat agent injury in a human airway-on-a-chip system to support medical countermeasure development.
-img: assets/img/counteract_logo.jpg
+img: assets/img/counteract_thumb.jpg
 importance: 3
 category: work
 related_publications: false
