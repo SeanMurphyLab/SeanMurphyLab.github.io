@@ -8,10 +8,27 @@
   position: "Principal Investigator"
   image: "sean_murphy_profile.jpeg"
   linkedin: "https://www.linkedin.com/in/sean-murphy-3741bb49/"
-  bio: "Coming soon"
+  bio: >
+    I grew up in Mandurah, Western Australia, and completed my PhD at Monash
+    University in Melbourne, where I studied stem cells as a treatment for lung
+    disease. This early translational work set the direction for my research:
+    developing new treatments to help people with disease and injury. I joined the
+    Wake Forest Institute for Regenerative Medicine in 2011, where I now lead a lab
+    working across tissue engineering, regenerative medicine, and organ-on-a-chip
+    systems. Our projects range from burn and wound healing to the development of
+    novel human in vitro models and the discovery and testing of new therapies for a
+    range of diseases and injuries. Outside the lab, I enjoy spending time with my
+    wife and two kids, restoring my classic car, and playing music and nerdy games
+    with friends.
 
-- name: "Placeholder Person"
-  position: "Lab Member"
-  image: "prof_pic.jpg"
-  linkedin: "https://www.linkedin.com/"
-  bio: "Coming soon"
+# ---- TEMPLATE: to add a member, copy this block, remove the leading '#' on
+#      each line, and fill it in. Save their photo into assets/img/ first
+#      (lowercase filename, no spaces, ~200-400 KB). ----
+# - name: "First Last"
+#   position: "Postdoctoral Associate"      # or PhD Student, MS Student, etc.
+#   image: "firstname_lastname.jpg"
+#   linkedin: "https://www.linkedin.com/in/..."   # optional; delete line if none
+#   bio: >
+#     [Hometown.] [Degrees + institutions + any prior roles.] [What they work on
+#     in the lab now.] [One line: outside the lab, I enjoy ...]
+# --------------------------------------------------------------------------------
